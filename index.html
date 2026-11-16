@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A golden evening celebrating Light Yagami's 18th birthday.">
+  <title>The Golden Legacy | Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="home-page">
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">GL</span><span>THE GOLDEN LEGACY</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a class="active" href="index.html">Invitation</a>
+      <a href="menu.html">The Menu</a>
+      <a href="about.html">The Honouree</a>
+      <a href="schedule.html">The Evening</a>
+    </nav>
+  </header>
+
+  <main class="home-shell">
+    <section class="intro-copy">
+      <p class="eyebrow"><span></span> A NIGHT TO REMEMBER · 20 JANUARY 2027</p>
+      <h1>Some evenings<br>become <em>legend.</em></h1>
+      <p class="intro-text">An evening of fine dining, golden moments and unforgettable celebration awaits.</p>
+      <div class="intro-meta"><span>LAHORE GARRISON GREENS</span><i></i><span>6:45 PM ONWARDS</span></div>
+    </section>
+
+    <section class="invitation-stage" aria-label="Animated birthday invitation">
+      <div class="stage-caption"><span>01 / THE INVITATION</span><span>OPEN TO DISCOVER</span></div>
+      <div class="envelope-wrap" id="envelopeWrap">
+        <div class="envelope-shadow"></div>
+        <div class="envelope" id="envelope">
+          <div class="envelope-back"></div>
+          <div class="letter-peek">
+            <div class="mini-crest">✦</div>
+            <span>YOU ARE CORDIALLY INVITED</span>
+            <strong>LIGHT YAGAMI</strong>
+            <small>THE EIGHTEENTH CELEBRATION</small>
+          </div>
+          <div class="envelope-front"></div>
+          <div class="envelope-flap"></div>
+          <button class="seal" id="openInvite" aria-label="Open invitation"><span>GL</span></button>
+        </div>
+      </div>
+      <p class="envelope-hint" id="envelopeHint">BREAK THE SEAL TO OPEN YOUR INVITATION</p>
+
+      <article class="main-invite-card" id="mainInvite" aria-hidden="true">
+        <button class="close-invite" id="closeInvite" aria-label="Close invitation">×</button>
+        <div class="card-inner">
+          <div class="card-topline"><span>THE GOLDEN LEGACY</span><span>EST. 2027</span></div>
+          <div class="ornament">✦</div>
+          <p class="card-kicker">MR. SOICHIRO YAGAMI REQUESTS THE PLEASURE OF YOUR COMPANY</p>
+          <h2>An evening<br>in <em>honour</em> of</h2>
+          <p class="honouree-name">LIGHT YAGAMI</p>
+          <p class="eighteen">EIGHTEEN YEARS · ONE EXTRAORDINARY NIGHT</p>
+          <div class="gold-rule"></div>
+          <div class="invite-details">
+            <div><span>DATE</span><strong>Wednesday, 20 January 2027</strong></div>
+            <div><span>VENUE</span><strong>Lahore Garrison Greens</strong></div>
+            <div><span>GATHERING</span><strong>6:45 PM · Dinner to follow</strong></div>
+          </div>
+          <p class="card-note">Your presence will make this celebration complete.</p>
+          <button class="button button-gold" id="rsvpButton">I'LL BE THERE <span>↗</span></button>
+          <p class="card-footer">WITH WARM REGARDS · THE YAGAMI FAMILY</p>
+        </div>
+      </article>
+      <div class="below-stage">
+        <span>AN INVITATION WORTH OPENING</span>
+        <span class="tiny-star">✧</span>
+        <span>SCROLL TO EXPLORE</span>
+      </div>
+    </section>
+
+    <section class="explore-section" id="explore">
+      <div class="section-heading">
+        <p class="eyebrow">THE NIGHT, CURATED</p>
+        <h2>Make a little <em>discovery.</em></h2>
+        <p>Everything you need to look forward to, gathered in one place.</p>
+      </div>
+      <div class="option-grid">
+        <a class="option-card" href="menu.html"><span class="option-number">01</span><span class="option-icon">✧</span><h3>The Menu</h3><p>A taste of the evening — from first course to final toast.</p><span class="option-link">EXPLORE THE MENU ↗</span></a>
+        <a class="option-card" href="about.html"><span class="option-number">02</span><span class="option-icon">◇</span><h3>The Honouree</h3><p>A little introduction to the young man at the heart of it all.</p><span class="option-link">MEET THE HONOUREE ↗</span></a>
+        <a class="option-card" href="schedule.html"><span class="option-number">03</span><span class="option-icon">✦</span><h3>The Evening</h3><p>Explore the moments planned for this special celebration.</p><span class="option-link">VIEW THE TIMELINE ↗</span></a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>THE GOLDEN LEGACY</span><span>20 · 01 · 2027</span><span>AN EVENING TO REMEMBER</span></footer>
+</body>
+</html>
